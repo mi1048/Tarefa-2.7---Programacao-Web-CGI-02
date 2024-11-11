@@ -115,5 +115,19 @@ Se o script não funcionar como esperado, consulte o log de erros do Apache para
 ```bash
 sudo tail -f /var/log/apache2/error.log
 ```
+## Após configurar o apache 
 
-## Após configurar o apache
+ Salve o html calculadora.html pode ser na pasta www ou em um diretório acessível pelo Apache
+ 
+## Após configurar o html
+
+
+É necessário executar o script calculadora.sh.
+
+```bash
+sudo bash calculadora.sh
+```
+
+Além disso
+Ele precisa estar no diretório correto para execução (como /usr/lib/cgi-bin no Apache), e ter permissão de execução.
+
